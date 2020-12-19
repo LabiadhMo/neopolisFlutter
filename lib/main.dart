@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:music_player/screens/Tracks/tracks.dart';
-import 'package:music_player/screens/login/login.dart';
-import 'package:music_player/screens/player/model/myaudio.dart';
-import 'package:music_player/screens/player/player.dart';
-import 'package:provider/provider.dart';
 
-import 'screens/register/register.dart';
+import 'package:music_player/screens/splashscreen/splash.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -20,8 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home:
-          Register(), //Login() // MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Splash(), //Login() // MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

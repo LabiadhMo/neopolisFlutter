@@ -25,7 +25,8 @@ dependencies:
     sdk: flutter
   validators: ^2.0.1
   audioplayers: ^0.17.0
-  provider: ^4.3.2+3
+ 
+
 
 
 
