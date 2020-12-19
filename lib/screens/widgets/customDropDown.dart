@@ -29,9 +29,11 @@ class CustomDropDown extends StatelessWidget {
           items: [
             DropdownMenuItem<int>(
               value: 1,
-              child: Row(
-                children: <Widget>[],
-              ),
+              child: Text('1111'),
+            ),
+            DropdownMenuItem<int>(
+              value: 1,
+              child: Text('22222'),
             )
           ]),
     );
